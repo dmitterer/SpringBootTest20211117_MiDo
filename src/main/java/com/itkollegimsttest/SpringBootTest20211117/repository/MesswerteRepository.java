@@ -6,4 +6,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface MesswerteRepository extends JpaRepository<Messwerte, Long> {
+    public Messwerte findByMesswerteNameStation(String  messwerteNameStation);
+    public Messwerte findByMesswerteNameStationIgnoreCase(String messwerteNameStation);
 }

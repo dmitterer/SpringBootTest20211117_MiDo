@@ -8,12 +8,12 @@ public interface MessweteService {
 
     public Messwerte saveMesswerte(Messwerte messwerte);
 
-    public List<Messwerte> fetchMesswerteist();
+    public List<Messwerte> fetchMesswerteList();
 
     public void deleteMessweteById(Long messwerteId);
 
     public Messwerte updateMesswerte(Long messwerteId, Messwerte messwerte);
 
-    Messwerte fetchMesswerteByName(String messwerteName);
+    Messwerte fetchMesswerteByName(String  messwerteNameStation);
 
 }

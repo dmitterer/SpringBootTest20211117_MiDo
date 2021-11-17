@@ -4,7 +4,7 @@ import com.itkollegimsttest.SpringBootTest20211117.entity.Messwerte;
 
 import java.util.List;
 
-public interface MessweteService {
+public interface MesswerteService {
 
     public Messwerte saveMesswerte(Messwerte messwerte);
 
